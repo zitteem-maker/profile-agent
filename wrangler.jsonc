@@ -52,7 +52,7 @@
     "REPORT_HOUR": "7",
     "REPORT_TZ": "Asia/Nicosia",
     "NOTIFY_NEW_SESSION": "true",
-    "SLACK_DRY_RUN": "true",
+    "SLACK_DRY_RUN": "false",
     "SLACK_USER_ID": "U0C5QMV4CN8",
     // Clé publique de test Turnstile (passe toujours) : remplacée par la vraie au déploiement.
     "TURNSTILE_SITE_KEY": "1x00000000000000000000AA"
