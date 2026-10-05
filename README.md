@@ -4,7 +4,7 @@ A conversational "queryable profile" for recruiters. My projects were run intern
 
 Designed and built with Claude Code. Full write-up (stack choices, rules, safeguards, data handling, limits): [`public/construction.en.md`](public/construction.en.md) · version française : [`public/construction.fr.md`](public/construction.fr.md), also served on the site as "How this agent is built".
 
-Live agent: `[link to be added]`
+Live agent: https://profile-agent.profile-agent.workers.dev
 
 ## Architecture
 
