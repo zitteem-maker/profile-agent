@@ -54,8 +54,8 @@
     "NOTIFY_NEW_SESSION": "true",
     "SLACK_DRY_RUN": "false",
     "SLACK_USER_ID": "U0C5QMV4CN8",
-    // Clé publique de test Turnstile (passe toujours) : remplacée par la vraie au déploiement.
-    "TURNSTILE_SITE_KEY": "1x00000000000000000000AA"
+    // Clé publique Turnstile du widget « profile-agent » (publique, pas un secret).
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAFOWrw-q4Tl7L__m"
   },
 
   // Journaux stockés par Cloudflare désactivés : aucune trace technique n'est conservée.
