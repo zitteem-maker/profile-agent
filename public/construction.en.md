@@ -61,7 +61,7 @@ Code repository: `[repository link to be added]`
 - **Stored**: first name, last name, company, job title, email, phone if provided, consent date, questions and answers, and a non-reversible fingerprint of the IP address (the address itself isn't kept).
 - **Sent to the model**: only the questions and the conversation history, never the identity or contact details.
 - **Retention**: 90 days, then automatic deletion. The "Delete my data" button erases the session immediately.
-- **Slack**: notifications contain the identity and the questions. The button doesn't erase them: I delete them no later than 90 days after receipt, and immediately on request.
+- **Slack**: notifications contain the identity and the questions. The button doesn't erase them: they are automatically deleted after 90 days, and immediately on request.
 - No audience analytics, no cookie other than the session cookie.
 
 ## How it is tested

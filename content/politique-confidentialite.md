@@ -36,7 +36,7 @@ Votre **consentement**, donné en cochant la case du formulaire. Vous pouvez le 
 
 ### 6. Combien de temps ?
 - Base de données : **{{RETENTION_DAYS}} jours**, puis suppression automatique.
-- Notifications Slack : supprimées par Emeline au plus tard {{RETENTION_DAYS}} jours après leur réception, et immédiatement sur demande.
+- Notifications Slack : supprimées automatiquement au bout de {{RETENTION_DAYS}} jours, et immédiatement sur demande.
 - Si vous entrez ensuite en contact avec Emeline, vos échanges suivants relèvent de ce nouveau cadre.
 
 ### 7. Vos droits
@@ -85,7 +85,7 @@ Your **consent**, given by ticking the form's checkbox. You can withdraw it at a
 
 ### 6. How long is it kept?
 - Database: **{{RETENTION_DAYS}} days**, then automatic deletion.
-- Slack notifications: deleted by Emeline no later than {{RETENTION_DAYS}} days after receipt, and immediately on request.
+- Slack notifications: automatically deleted after {{RETENTION_DAYS}} days, and immediately on request.
 - If you later get in touch with Emeline, your following exchanges fall under that new context.
 
 ### 7. Your rights
