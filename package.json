@@ -1,0 +1,20 @@
+{
+  "name": "profile-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent conversationnel « profil consultable » d'Emeline Zitte pour les recruteurs.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test test/",
+    "export": "node scripts/export.mjs",
+    "eval": "node scripts/eval.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.147.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0"
+  }
+}

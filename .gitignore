@@ -1,0 +1,25 @@
+# Secrets locaux : ne jamais les envoyer sur Git
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+
+# Outils et fichiers générés
+node_modules/
+.wrangler/
+exports/
+*.log
+.DS_Store
+
+# Fichier de travail personnel (brouillons de réponses)
+a-completer.md
+propositions.md
+
+# Logs du serveur de test
+tests/rapports/.serveur-eval.log
+
+# Guide de travail personnel (non publié par défaut)
+guide-construction.md
+
+# Rapports de tests faits avec Haiku : ils contiennent des affirmations fausses (corrigées depuis), gardés en local
+tests/rapports/archives-haiku/

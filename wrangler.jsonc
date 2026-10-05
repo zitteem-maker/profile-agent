@@ -1,0 +1,66 @@
+// Configuration Cloudflare du Worker. Aucun secret ici :
+// les secrets vont dans .dev.vars (local) ou via `npx wrangler secret put NOM` (production).
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "profile-agent",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+
+  // Les fichiers .md de content/ sont importés comme texte dans le code (lus, jamais modifiés).
+  "rules": [{ "type": "Text", "globs": ["**/*.md"], "fallthrough": true }],
+
+  // Pages (HTML, CSS, JS) servies directement ; seules les routes /api/* passent par le code.
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+
+  // Base D1 : sessions, messages, signalements. L'identifiant n'est pas un secret.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "profile-agent-db",
+      "database_id": "90338f39-f9ee-45a4-8bfe-3e298b9edeec",
+      "migrations_dir": "migrations"
+    }
+  ],
+
+  // Limites de débit par visiteur (clé = empreinte hachée de l'IP). Période : 10 ou 60 secondes.
+  "ratelimits": [
+    { "name": "SESSION_LIMITER", "namespace_id": "1001", "simple": { "limit": 5, "period": 60 } },
+    { "name": "CHAT_LIMITER", "namespace_id": "1002", "simple": { "limit": 10, "period": 60 } }
+  ],
+
+  // Les crons sont en UTC. 7h à Chypre = 4h UTC en été, 5h UTC en hiver :
+  // les deux se déclenchent, le code n'envoie le rapport que s'il est REPORT_HOUR à REPORT_TZ.
+  "triggers": {
+    "crons": ["0 4 * * *", "0 5 * * *"]
+  },
+
+  // Variables non secrètes.
+  "vars": {
+    // Claude Sonnet 5.5, retenu après comparaison avec Haiku 4.5 sur le jeu de tests.
+    "MODEL": "claude-sonnet-5-5",
+    "EFFORT": "medium",
+    // Secours serveur d'Anthropic : une question refusée à tort par un filtre de sécurité est relancée sur un autre modèle.
+    "FALLBACKS": "default",
+    "MAX_QUESTIONS": "9",
+    "CALL_INVITE_AT": "3,6",
+    "RETENTION_DAYS": "90",
+    "REPORT_HOUR": "7",
+    "REPORT_TZ": "Asia/Nicosia",
+    "NOTIFY_NEW_SESSION": "true",
+    "SLACK_DRY_RUN": "true",
+    "SLACK_USER_ID": "U0C5QMV4CN8",
+    // Clé publique de test Turnstile (passe toujours) : remplacée par la vraie au déploiement.
+    "TURNSTILE_SITE_KEY": "1x00000000000000000000AA"
+  },
+
+  // Journaux stockés par Cloudflare désactivés : aucune trace technique n'est conservée.
+  // Pour suivre les événements en direct en cas de problème : npx wrangler tail
+  "observability": {
+    "enabled": false
+  }
+}
