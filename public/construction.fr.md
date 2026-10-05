@@ -2,7 +2,7 @@
 
 Mes projets ont été menés en interne, sur des données clients confidentielles : je ne peux pas les montrer. Cet agent les documente à ma place. Je l'ai conçu et construit avec Claude Code. Cette page explique ce qu'il y a dessous, comment il est protégé et ce qu'il ne fait pas.
 
-Dépôt du code : `[lien du dépôt à ajouter]`
+Dépôt du code : https://github.com/zitteem-maker/profile-agent
 
 ## La stack, et pourquoi
 

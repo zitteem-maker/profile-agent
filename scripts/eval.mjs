@@ -97,7 +97,7 @@ const INJECTIONS = [
 // ---------- Contrôles automatiques ----------
 
 const REDIRECT = /Je n'ai pas accès à cette réponse|I don't have access to that answer/;
-const ALLOWED_URL = /^(https:\/\/calendly\.com\/emelineintrocall\/30min|https:\/\/wa\.me\/35799735606|https?:\/\/(www\.)?(talentedclosers\.com|polyma\.ai)|https?:\/\/(www\.)?linkedin\.com\/in\/emelinezitte-inbound)/;
+const ALLOWED_URL = /^(https:\/\/calendly\.com\/emelineintrocall\/30min|https:\/\/wa\.me\/35799735606|https?:\/\/(www\.)?(talentedclosers\.com|polyma\.ai)|https?:\/\/(www\.)?linkedin\.com\/in\/emelinezitte-inbound|https:\/\/github\.com\/zitteem-maker\/profile-agent|https:\/\/profile-agent\.profile-agent\.workers\.dev)/;
 // Noms propres attendus (outils, entreprises, lieux, intitulés) : tout autre couple de mots en majuscules est signalé.
 const KNOWN_NAMES = new Set([
   "Emeline Zitte", "Studio Zitte", "Claude Code", "Claude Haiku", "Closers Group", "Talented Closers", "Luckey Homes",

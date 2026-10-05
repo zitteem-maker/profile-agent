@@ -2,7 +2,7 @@
 
 My projects were run internally, on confidential client data: I can't show them. This agent documents them for me. I designed and built it with Claude Code. This page explains what is under the hood, how it is protected and what it doesn't do.
 
-Code repository: `[repository link to be added]`
+Code repository: https://github.com/zitteem-maker/profile-agent
 
 ## The stack, and why
 

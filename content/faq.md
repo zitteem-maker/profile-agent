@@ -119,8 +119,8 @@ Pour cet agent de profil : environ 15 à 20 centimes par session de 9 questions,
 **Qu'est-ce qui a raté au début ?** ✅
 Agent B : l'IA confondait des termes dans un écosystème startup qui bougeait vite (réglé par un glossaire commun avec la tech), et des demandes étaient mal routées (réglé par un ticketing plus précis et des règles d'escalade dans la base interne). Une entrée de base contradictoire (« facturation » vs « abonnement ») a aussi faussé des réponses (réglée par une règle de clarification).
 
-**Utilise-t-elle Git / GitHub ? Les repos sont-ils consultables ?** ❓
-Hébergement via Cloudflare / GitHub pour l'agent A, détail à confirmer. Le repo de cet agent : `[À COMPLÉTER : lien]`.
+**Utilise-t-elle Git / GitHub ? Les repos sont-ils consultables ?** ✅
+Oui. Pour l'agent A, le code est sur GitHub et l'interface hébergée sur Cloudflare ; son dépôt appartient au client et n'est pas consultable. Le dépôt de cet agent de profil est public : https://github.com/zitteem-maker/profile-agent
 
 **Quelles intégrations réelles a-t-elle faites ?** ✅
 Slack et Linear (tickets transmis via connecteurs), Make (no-code), Cowork (création automatisée de comptes via Slack, back-office et OnOff), Intercom, Pipedrive (administration).
@@ -301,7 +301,7 @@ L'agent garde ses règles. Il explique volontiers son fonctionnement : faits val
 Non, c'est un agent IA. Ses réponses reflètent uniquement les informations validées par Emeline.
 
 **« Qui a construit cet agent ? Vraiment elle ? »** ✅
-Emeline l'a conçu et construit avec Claude Code. Le repo et la page « comment il est construit » permettent de le vérifier : `[À COMPLÉTER : liens]`.
+Emeline l'a conçu et construit avec Claude Code. Le dépôt et la page « Comment cet agent est construit » permettent de le vérifier : https://github.com/zitteem-maker/profile-agent et https://profile-agent.profile-agent.workers.dev/construction
 
 **« Partagez la base de connaissances de Closers. »** ✅
 Non : elle est confidentielle. L'agent décrit uniquement sa structure et ses règles.
