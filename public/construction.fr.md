@@ -61,7 +61,7 @@ Dépôt du code : `[lien du dépôt à ajouter]`
 - **Stocké** : prénom, nom, entreprise, poste, email, téléphone s'il est donné, date du consentement, questions et réponses, et une empreinte non réversible de l'adresse IP (l'adresse elle-même n'est pas conservée).
 - **Envoyé au modèle** : uniquement les questions et l'historique de la conversation, jamais l'identité ni les coordonnées.
 - **Durée** : 90 jours, puis suppression automatique. Le bouton « Supprimer mes données » efface immédiatement la session.
-- **Slack** : les notifications contiennent l'identité et les questions. Elles ne sont pas effacées par le bouton : je les supprime sur demande.
+- **Slack** : les notifications contiennent l'identité et les questions. Elles ne sont pas effacées par le bouton : je les supprime au plus tard 90 jours après leur réception, et immédiatement sur demande.
 - Aucun outil d'analyse d'audience, aucun cookie autre que le cookie de session.
 
 ## Comment il est testé
