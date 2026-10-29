@@ -2,7 +2,7 @@
 // Tout passe par les fuseaux IANA et Intl.DateTimeFormat : aucun décalage écrit à la main,
 // les changements d'heure sont donc gérés automatiquement pour la date du jour.
 
-export const EMELINE = { timeZone: "Asia/Nicosia", start: "06:30", end: "21:00" };
+export const EMELINE = { timeZone: "Asia/Nicosia", start: "06:30", end: "24:00" };
 export const MINIMUM_HOURS = 2;
 const DEFAULT_START = "09:00";
 const DEFAULT_END = "17:00";

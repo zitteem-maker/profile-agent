@@ -8,7 +8,7 @@ export const TOOLS = [
   {
     name: "get_overlap",
     description:
-      "Calcule le chevauchement horaire entre la plage de travail d'Emeline (06:30-21:00, Asia/Nicosia) et les horaires de travail de l'équipe d'une ville, à la date du jour (changements d'heure inclus). À appeler pour toute question de fuseau horaire ou de chevauchement : ne jamais calculer un décalage de tête.",
+      "Calcule le chevauchement horaire entre la plage de travail d'Emeline (06:30-24:00, Asia/Nicosia) et les horaires de travail de l'équipe d'une ville, à la date du jour (changements d'heure inclus). À appeler pour toute question de fuseau horaire ou de chevauchement : ne jamais calculer un décalage de tête.",
     input_schema: {
       type: "object",
       properties: {

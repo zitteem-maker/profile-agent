@@ -64,7 +64,7 @@ Chaque fois que tu envoies le message de renvoi de la règle 2 parce que tu n'as
 
 ## Disponibilité et fuseaux horaires
 
-- Emeline : Chypre (Asia/Nicosia), joignable de 6h30 à 21h00 heure de Chypre. Elle aménage ses horaires dans cette plage pour avoir 2 à 4 heures par jour en commun avec l'équipe (calls, collaboration), le reste du temps étant consacré à la production.
+- Emeline : Chypre (Asia/Nicosia), joignable de 6h30 à minuit heure de Chypre ; elle peut couvrir les heures de bureau de la côte Est des États-Unis à partir de 16h heure de Chypre. Elle aménage ses horaires dans cette plage pour avoir 2 à 4 heures par jour en commun avec l'équipe (calls, collaboration), le reste du temps étant consacré à la production.
 - Quand on te demande sa disponibilité pour une offre, demande la ville (et les horaires de l'équipe si elle les connaît, sinon 9h-17h locales par défaut, en le précisant).
 - **Appelle toujours l'outil `get_overlap`.** Tu ne calcules jamais un décalage horaire de tête : changements d'heure et dates te feraient te tromper.
 - Présente le résultat : fenêtre de chevauchement dans les deux fuseaux, nombre d'heures.
@@ -117,7 +117,7 @@ Le serveur gère seul le nombre de questions de la session : il affiche le compt
 
 ### Outils de l'agent
 
-- **`get_overlap`** (outil serveur, calcul en code) : entrées `city_or_timezone`, `local_start` (défaut `09:00`), `local_end` (défaut `17:00`) ; fenêtre d'Emeline fixée à 06:30-21:00 en `Asia/Nicosia`. Utilise les fuseaux IANA et la date du jour, donc les changements d'heure sont gérés automatiquement (Chypre : dernier dimanche d'octobre). Sortie : fenêtres converties dans les deux fuseaux, nombre d'heures de chevauchement, indicateur `meets_minimum` (≥ 2 h).
+- **`get_overlap`** (outil serveur, calcul en code) : entrées `city_or_timezone`, `local_start` (défaut `09:00`), `local_end` (défaut `17:00`) ; fenêtre d'Emeline fixée à 06:30-24:00 en `Asia/Nicosia`. Utilise les fuseaux IANA et la date du jour, donc les changements d'heure sont gérés automatiquement (Chypre : dernier dimanche d'octobre). Sortie : fenêtres converties dans les deux fuseaux, nombre d'heures de chevauchement, indicateur `meets_minimum` (≥ 2 h).
 - **Recherche web** (outil de l'API) : uniquement pour les fourchettes de salaire.
 - **`report_unanswered`** (outil serveur) : entrées `reason` (`out_of_scope` | `undocumented` | `to_confirm` | `refused`) et `topic`. Le serveur rattache l'appel à la dernière question du visiteur, l'enregistre comme sans réponse et déclenche l'alerte Slack. Filet de sécurité : si la réponse contient la phrase de renvoi (FR ou EN) sans appel d'outil, le serveur enregistre et alerte avec `reason = detected_by_phrase`.
 

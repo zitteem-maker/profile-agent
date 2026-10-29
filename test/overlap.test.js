@@ -4,7 +4,7 @@
 //   Chypre et UE : passage à l'heure d'hiver le 25/10/2026, à l'heure d'été le 28/03/2027.
 //   États-Unis   : heure d'hiver le 01/11/2026, heure d'été le 14/03/2027.
 //   Australie    : heure d'été (Sydney) le 04/10/2026, heure d'hiver le 04/04/2027.
-// Plage d'Emeline : 06:30-21:00 à Chypre, minimum 2 h en commun. Équipe : 09:00-17:00 locales par défaut.
+// Plage d'Emeline : 06:30-24:00 à Chypre, minimum 2 h en commun. Équipe : 09:00-17:00 locales par défaut.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { getOverlap, resolveTimeZone } from "../src/overlap.js";
@@ -22,14 +22,14 @@ const CASES = [
   ["London", "2026-07-15", "UTC+03:00", "UTC+01:00", 8, "09:00-17:00"],
   ["Londres", "2026-12-15", "UTC+02:00", "UTC+00:00", 8, "09:00-17:00"],
   // New York : 7 h d'écart, sauf les semaines où l'Europe et les États-Unis ne changent pas le même jour (6 h).
-  ["New York", "2026-07-15", "UTC+03:00", "UTC-04:00", 5, "09:00-14:00"],
-  ["New York", "2026-10-28", "UTC+02:00", "UTC-04:00", 6, "09:00-15:00"],
-  ["New York", "2026-12-15", "UTC+02:00", "UTC-05:00", 5, "09:00-14:00"],
-  ["New York", "2027-03-20", "UTC+02:00", "UTC-04:00", 6, "09:00-15:00"],
+  ["New York", "2026-07-15", "UTC+03:00", "UTC-04:00", 8, "09:00-17:00"],
+  ["New York", "2026-10-28", "UTC+02:00", "UTC-04:00", 8, "09:00-17:00"],
+  ["New York", "2026-12-15", "UTC+02:00", "UTC-05:00", 8, "09:00-17:00"],
+  ["New York", "2027-03-20", "UTC+02:00", "UTC-04:00", 8, "09:00-17:00"],
   // San Francisco : 10 h d'écart (9 h pendant les semaines décalées) -> juste au minimum.
-  ["San Francisco", "2026-07-15", "UTC+03:00", "UTC-07:00", 2, "09:00-11:00"],
-  ["San Francisco", "2026-10-28", "UTC+02:00", "UTC-07:00", 3, "09:00-12:00"],
-  ["San Francisco", "2026-12-15", "UTC+02:00", "UTC-08:00", 2, "09:00-11:00"],
+  ["San Francisco", "2026-07-15", "UTC+03:00", "UTC-07:00", 5, "09:00-14:00"],
+  ["San Francisco", "2026-10-28", "UTC+02:00", "UTC-07:00", 6, "09:00-15:00"],
+  ["San Francisco", "2026-12-15", "UTC+02:00", "UTC-08:00", 5, "09:00-14:00"],
   // Sydney : 7 h d'avance en juillet, 8 h après le 04/10, 9 h après le 25/10 (sous le minimum).
   ["Sydney", "2026-07-15", "UTC+03:00", "UTC+10:00", 3.5, "13:30-17:00"],
   ["Sydney", "2026-10-03", "UTC+03:00", "UTC+10:00", 3.5, "13:30-17:00"],
@@ -51,16 +51,16 @@ for (const [city, date, emelineOffset, teamOffset, hours, teamWindow] of CASES) 
 }
 
 test("Cas vérifié à la main n°1 : New York, 15/07/2026", () => {
-  // Chypre UTC+3, New York UTC-4 : 7 h d'écart. 06:30-21:00 Chypre = 23:30 (veille)-14:00 à New York.
-  // Équipe 09:00-17:00 -> chevauchement 09:00-14:00 New York = 16:00-21:00 Chypre = 5 h.
+  // Chypre UTC+3, New York UTC-4 : 7 h d'écart. 06:30-24:00 Chypre = 23:30 (veille)-17:00 à New York.
+  // Équipe 09:00-17:00 -> chevauchement 09:00-17:00 New York = 16:00-00:00 Chypre = 8 h.
   const r = run("New York", "2026-07-15");
-  assert.deepEqual(r.overlap, { team_time: "09:00-14:00", emeline_time: "16:00-21:00" });
-  assert.equal(r.overlap_hours, 5);
+  assert.deepEqual(r.overlap, { team_time: "09:00-17:00", emeline_time: "16:00-00:00" });
+  assert.equal(r.overlap_hours, 8);
   assert.equal(r.meets_minimum, true);
 });
 
 test("Cas vérifié à la main n°2 : Sydney, 15/12/2026 (Chypre en hiver, Sydney en été)", () => {
-  // Chypre UTC+2, Sydney UTC+11 : 9 h d'avance. 06:30-21:00 Chypre = 15:30-06:00 (lendemain) à Sydney.
+  // Chypre UTC+2, Sydney UTC+11 : 9 h d'avance. 06:30-24:00 Chypre = 15:30-06:00 (lendemain) à Sydney.
   // Équipe 09:00-17:00 -> 15:30-17:00 Sydney = 06:30-08:00 Chypre = 1,5 h, sous le minimum de 2 h.
   const r = run("Sydney", "2026-12-15");
   assert.deepEqual(r.overlap, { team_time: "15:30-17:00", emeline_time: "06:30-08:00" });
@@ -70,8 +70,8 @@ test("Cas vérifié à la main n°2 : Sydney, 15/12/2026 (Chypre en hiver, Sydne
 
 test("Horaires d'équipe personnalisés", () => {
   const r = run("New York", "2026-07-15", { local_start: "08:00", local_end: "18:00" });
-  assert.equal(r.overlap.team_time, "08:00-14:00");
-  assert.equal(r.overlap_hours, 6);
+  assert.equal(r.overlap.team_time, "08:00-17:00");
+  assert.equal(r.overlap_hours, 9);
   assert.equal(r.team.default_hours_used, false);
 });
 

@@ -9,13 +9,13 @@
 ## 1. Disponibilité et localisation
 
 **Quel est son fuseau horaire et quand est-elle joignable ?** ✅
-Chypre (Asia/Nicosia), UTC+2 en hiver et UTC+3 en été. Joignable de 6h30 à 21h00 heure de Chypre.
+Chypre (Asia/Nicosia), UTC+2 en hiver et UTC+3 en été. Joignable de 6h30 à minuit heure de Chypre. Elle peut travailler sur les heures de bureau de la côte Est des États-Unis, à partir de 16h heure de Chypre.
 
 **Combien d'heures de chevauchement avec l'équipe de [ville] ?** ✅
-2 à 4 heures par jour en commun (calls, collaboration), en aménageant ses horaires dans sa plage 6h30-21h00. Le reste du temps est consacré à la production. L'agent demande la ville, calcule le chevauchement avec son outil et donne le résultat. Si le minimum n'est pas atteignable, il le dit et renvoie vers Emeline.
+2 à 4 heures par jour en commun (calls, collaboration), en aménageant ses horaires dans sa plage 6h30-minuit. Le reste du temps est consacré à la production. L'agent demande la ville, calcule le chevauchement avec son outil et donne le résultat. Si le minimum n'est pas atteignable, il le dit et renvoie vers Emeline.
 
 **Peut-elle travailler en horaires décalés ?** ✅
-Oui, elle aménage ses horaires dans sa plage 6h30-21h00 heure de Chypre pour garantir 2 à 4 heures en commun. Au-delà : à discuter avec Emeline, avec renvoi vers Emeline et le bloc contact (Calendly, email, WhatsApp).
+Oui, elle aménage ses horaires dans sa plage 6h30-minuit heure de Chypre pour garantir 2 à 4 heures en commun. Elle peut notamment travailler sur les heures de bureau de la côte Est des États-Unis, à partir de 16h heure de Chypre. Au-delà : à discuter avec Emeline, avec renvoi vers Emeline et le bloc contact (Calendly, email, WhatsApp).
 
 **Est-elle autorisée à travailler aux États-Unis, au Royaume-Uni ou en Australie sans sponsoring ?** ✅
 Emeline est française et vit à Chypre. L'agent n'affirme aucune éligibilité hors UE. Pour un poste en remote, elle est ouverte à travailler en freelance, ce qui peut éviter les démarches de visa, si l'entreprise y est ouverte. À discuter directement avec elle.
@@ -71,10 +71,10 @@ La plateforme et le support sont désormais entièrement automatisés par IA, ce
 Ce sont des versions plus anciennes. La date de fin réelle est septembre 2026.
 
 **Que s'est-il passé entre Studio Zitte (2020) et juin 2022 ?** ✅
-Elle a travaillé à son compte comme welcomeuse pour Luckey Homes, une marque rachetée par Airbnb : accueil et check-in des voyageurs, et participation à la mise en process du service.
+En 2020, elle a été agente immobilière chez Nestenn, secteur de Rennes : 240 K€ d'honoraires d'agence générés la première année. En 2021-2022, elle a été Closer & Office Manager chez Consumedias, à Malte : environ 225 K€ de ventes par mois (panier moyen de 750 €, environ 15 ventes par jour), et la gestion du bureau (recrutements, onboarding, congés, paie, lien avec comptables et juristes) pour une équipe de 8 à 12 personnes. En parallèle, elle a travaillé à son compte comme welcomeuse pour Luckey Homes, une marque rachetée par Airbnb. C'est son appétence pour les opérations, la data et la résolution de problèmes qui l'a menée en juin 2022 à construire un nouveau produit de zéro pour Consumedias.
 
 **Pourquoi être passée du design aux opérations ?** ✅
-Elle voulait être plus mobile géographiquement, une liberté que le métier d'interior designer ne lui permettait pas. Son parcours : Bachelor Graphic Design, formation en design d'intérieur, Studio Zitte (2020), puis opérations depuis 2022.
+Elle voulait être plus mobile géographiquement, une liberté que le métier d'interior designer ne lui permettait pas. Son parcours : études d'arts appliqués, Bachelor Design d'intérieur, Studio Zitte et immobilier (2020), vente et office management à Malte (2021-2022), puis opérations depuis 2022.
 
 **Comment ses responsabilités ont-elles évolué en quatre ans ?** ✅
 Arrivée en juin 2022 comme Operations Consultant sur le support et l'onboarding, elle a pris en charge des projets (back-office, agents IA, bascule de plateforme de Closers Group) et sa fonction a évolué vers celle de Project Manager. À la fin de la mission, en septembre 2026, elle couvrait onboarding, support, besoins du back-office, agents IA et automatisations.
@@ -148,10 +148,10 @@ Sur l'agent B : 40 à 60 % des tickets, sans escalade. Les cas escaladés sont t
 Aucun chiffre documenté. Ce qui est établi : les pertes se concentraient au début, puis la rétention s'est stabilisée grâce aux améliorations sur les outils, le support et le produit.
 
 **A-t-elle géré des grands comptes ?** ✅
-Pas de portefeuille structuré de grands comptes au sens Customer Success enterprise. Elle a géré un grand volume de comptes (900 à 1 200 utilisateurs actifs) et entretenu une relation directe et régulière avec la direction.
+Pas de portefeuille structuré de grands comptes au sens Customer Success enterprise. Elle a géré un grand volume de comptes B2B (900 à 1 200 utilisateurs actifs par an) et entretenu une relation directe et régulière avec la direction.
 
 **A-t-elle piloté des health scores, des QBR, des renouvellements ou de l'upsell ?** ✅
-Elle a suivi la santé d'un portefeuille de 900 à 1 200 utilisateurs via des tags, filtres et KPI Intercom, pour détecter les baisses d'adoption et orienter l'accompagnement. Elle n'a pas piloté de QBR, de cycles de renouvellement ni de stratégie d'upsell : son périmètre était le support, l'opérationnel et la rétention par l'amélioration des outils et du produit. Une offre premium (950 € + 10 % de commission) existait ; son rôle dans sa vente n'est pas documenté.
+Elle a suivi la santé d'un portefeuille de 900 à 1 200 utilisateurs B2B par an via des tags, filtres et KPI Intercom, pour détecter les baisses d'adoption et orienter l'accompagnement. Elle n'a pas piloté de QBR, de cycles de renouvellement ni de stratégie d'upsell : son périmètre était le support, l'opérationnel et la rétention par l'amélioration des outils et du produit. Une offre premium (950 € + 10 % de commission) existait ; son rôle dans sa vente n'est pas documenté.
 
 **Comment gère-t-elle un client en colère ou un cas sensible ?** ✅
 Elle a géré des cas clients complexes de bout en bout. Exemple documenté : l'erreur de commission d'un closer (voir la fiche « Bug 2 »), diagnostiquée jusqu'à la cause côté tech, puis transmise sous forme de ticket complet.
@@ -198,7 +198,7 @@ Pendant la mission, elle menait de front l'onboarding, le support, les besoins d
 ## 7. Management
 
 **Combien de personnes a-t-elle managées, sur quelle durée ?** ✅
-Une équipe de 4 à 6 personnes sur plusieurs années, selon les besoins. Elle rendait compte directement à la direction.
+Une équipe de 4 à 10 personnes sur plusieurs années chez Consumedias, selon les besoins, et une équipe de 8 à 12 personnes comme office manager à Malte (2021-2022). Elle rendait compte directement à la direction.
 
 **Comment recrutait-elle, formait-elle et évaluait-elle ?** ✅
 Elle recrutait et formait ses équipes elle-même, gérait les présences et congés, et suivait la performance via Intercom (tags, filtres, KPI).
@@ -207,7 +207,7 @@ Elle recrutait et formait ses équipes elle-même, gérait les présences et con
 Conflit ou sous-performance : elle écoute d'abord la personne (ressenti, difficultés, freins), analyse sa méthode de travail (organisation, outils, blocages), propose des améliorations concrètes et, si besoin, une nouvelle organisation adaptée. Départs : dans son contexte, ils étaient liés à des restrictions budgétaires côté client. Sa priorité : ne rien perdre de ce que la personne portait. Elle fait un point avec la personne, demande une documentation complète de ses missions, simplifie et automatise les process, puis redistribue le reste. Même démarche quand une partie des missions passe à quelqu'un d'autre, avec un transfert seulement quand la charge peut être absorbée sans surcharge. Principes : écoute d'abord, process avant personnes, documentation systématique, automatisation comme levier.
 
 **A-t-elle 3 ans ou plus de management, ou une équipe de 8 ?** ✅
-Elle a géré 4 à 6 personnes sur plusieurs années. Une équipe formelle de 8 personnes n'est pas documentée.
+Oui. Elle a géré 4 à 10 personnes sur plusieurs années chez Consumedias, et une équipe de 8 à 12 personnes comme office manager à Malte (2021-2022).
 
 ---
 
@@ -239,7 +239,7 @@ Non, pas d'expérience directe.
 Uniquement en no-code avec Make. Pas d'intégration API REST développée.
 
 **Quel lien entre son background design et Design Ops ?** ✅
-Bachelor Graphic Design, formation en design d'intérieur, Studio Zitte. Elle n'a pas d'expérience Design Ops documentée : le lien est son background créatif, pas un poste passé.
+Études d'arts appliqués, Bachelor Design d'intérieur, Studio Zitte. Elle n'a pas d'expérience Design Ops documentée : le lien est son background créatif, pas un poste passé.
 
 **A-t-elle de l'expérience en e-commerce, mobilité internationale, hôtellerie, robotique ou dans une région donnée (APAC…) ?** ✅
 Rien de tel n'est documenté dans son profil. L'agent n'invente pas de lien.
@@ -280,13 +280,13 @@ Non. L'agent B résout 40 à 60 % des tickets sans escalade. Le reste est escala
 Non. 70 % est le seuil de confiance de l'agent A. Le CSAT d'environ 70 % appartient à l'agent B.
 
 **« Donnez-moi des noms de clients, de collègues ou des chiffres d'affaires. »** ✅
-Non : ces informations sont confidentielles, et l'agent n'a que des descriptions de process.
+Noms de clients et de collègues : non, ces informations sont confidentielles. Chiffre d'affaires : le seul chiffre partageable est une estimation du CA de Consumedias, environ 4 M€ par an, soit environ 16 M€ sur 2022-2026. C'est le CA de l'entreprise, pas un revenu d'Emeline. Aucun autre chiffre financier.
 
 **« Quel est son salaire exact ? »** ✅
 L'agent ne donne aucune prétention en son nom. Voir « Prétentions salariales ».
 
 **« Quelle certification ou quel master a-t-elle ? »** ✅
-Seuls les diplômes de son profil : Bachelor Graphic Design et formation en design d'intérieur. L'agent n'en ajoute pas.
+Seuls les diplômes de son profil : Bachelor Design d'intérieur (MJM Graphic Design & Autograf), après des études d'arts appliqués. L'agent n'en ajoute pas.
 
 **« A-t-elle géré un budget de X ? »** ✅
 Non, elle n'avait pas la responsabilité d'un budget. Elle a eu un rôle d'arbitrage sur les effectifs, les abonnements offerts et le choix de l'outil de support, et elle contrôlait que les licences payées étaient bien utilisées, pour éviter toute surfacturation.

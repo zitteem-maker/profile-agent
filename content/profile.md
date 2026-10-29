@@ -2,7 +2,7 @@
 
 > Source de vérité de l'agent. Uniquement des faits validés par Emeline.
 > Tout ce qui est marqué `[À CONFIRMER]` ne doit jamais être affirmé par l'agent.
-> Dernière mise à jour : 30 septembre 2026.
+> Dernière mise à jour : 29 octobre 2026.
 
 ---
 
@@ -11,17 +11,18 @@
 - Nom : Emeline Zitte. Française, basée à Larnaca (Chypre). Français et anglais courants.
 - Co-fondatrice de Polyma (polyma.ai), conseil marketing et opérations, détenu à 50/50 avec Grégoire, depuis 2026.
 - Travaille via une structure indépendante : compte auto-entrepreneuse, puis via Polyma à partir de 2026. Ouverte à un CDI comme à une mission freelance (facturée via Polyma) ; le format se discute directement avec Emeline.
-- Liens : linkedin.com/in/emelinezitte-inbound · polyma.ai
+- Liens : linkedin.com/in/emelinezitte · polyma.ai
 
 ## 2. Ce qu'elle cherche
 
 - Postes Customer Success, Operations, Product Ops.
 - Full remote, ou avec déplacements ponctuels, partout dans le monde (plusieurs fois par an). Pas de relocalisation.
+- Peut travailler sur les heures de bureau de la côte Est des États-Unis (Eastern Time), à partir de 16h heure de Chypre.
 
 ## 3. Disponibilité
 
 - Fuseau : Chypre (Asia/Nicosia). UTC+2 en hiver, UTC+3 en été (changement d'heure : dernier dimanche d'octobre et de mars).
-- Joignable de 6h30 à 21h00, heure de Chypre.
+- Joignable de 6h30 à minuit, heure de Chypre. Elle peut couvrir les heures de bureau de la côte Est des États-Unis à partir de 16h heure de Chypre.
 - Engagement : elle aménage ses horaires dans cette plage pour avoir 2 à 4 heures par jour en commun avec l'équipe (calls, collaboration). Le reste de sa journée est consacré à la production.
 - Le chevauchement se calcule pour chaque offre avec l'outil dédié, jamais de tête. Si le minimum n'est pas atteignable dans la fenêtre, l'agent le dit et renvoie vers Emeline.
 - Date de disponibilité : à discuter avec Emeline.
@@ -30,15 +31,21 @@
 ## 4. Parcours
 
 - **Juin 2022 – septembre 2026 : Operations Consultant / Project Manager**, engagée par **Consumedias**.
-  - Talented Closers est une marque de Consumedias (plateforme talentedclosers.com, interface utilisateur créée avec la tech).
+  - Consumedias est une startup SaaS en phase de scale-up. Chiffre d'affaires estimé : environ 4 M€ par an, soit environ 16 M€ sur les quatre ans de la mission (estimation du CA de l'entreprise, pas d'un revenu d'Emeline).
+  - Talented Closers est une marque de Consumedias (plateforme talentedclosers.com, interface utilisateur créée avec la tech). Les utilisateurs de la plateforme sont des entreprises (B2B).
   - Closers Group est un client de Consumedias : Emeline était l'intervenante privilégiée lors de la bascule de leur plateforme.
   - Facturation via son compte auto-entrepreneuse, puis via Polyma à partir de 2026.
   - Mission terminée en septembre 2026 : la plateforme et le support sont désormais entièrement automatisés par IA.
   - Elle a rendu compte directement à la direction (un des associés), avec qui elle travaillait de près sur l'opérationnel.
   - Arrivée comme Operations Consultant (support, onboarding), sa fonction a évolué vers Project Manager en prenant en charge des projets (back-office, agents IA, bascule de plateforme de Closers Group) : l'intitulé a suivi le périmètre.
-- **Entre 2020 et juin 2022 : welcomeuse, à son compte, pour Luckey Homes**, marque rachetée par Airbnb : accueil et check-in des voyageurs, participation à la mise en process du service.
+- **2021 – 2022 : Closer & Office Manager chez Consumedias, à Malte (sur site).**
+  - Closing : environ 225 K€ de ventes générées par mois, panier moyen de 750 €, soit environ 15 ventes par jour.
+  - Office management : recrutements, onboarding, congés, fiches de paie, communication avec les comptables et les juristes ; management d'une équipe de 8 à 12 personnes.
+  - Motivation : comprendre les process de vente et leur passage à l'échelle. Elle y a découvert une vraie appétence pour les opérations, la résolution de problèmes, l'optimisation et la data, ce qui a mené à la mission de juin 2022 : construire un nouveau produit de zéro.
+- **2020 : agente immobilière chez Nestenn**, secteur de Rennes : 240 K€ d'honoraires d'agence générés la première année (honoraires de l'agence, pas des commissions perçues par Emeline).
 - **2020 : Studio Zitte**, décoration d'intérieur et home staging, Rennes. Fondé et dirigé par Emeline.
-- **Formation** : Bachelor Graphic Design (MJM Graphic Design & Autograf) ; formation en design d'intérieur.
+- **Entre 2020 et juin 2022, en parallèle : welcomeuse, à son compte, pour Luckey Homes**, marque rachetée par Airbnb : accueil et check-in des voyageurs, participation à la mise en process du service.
+- **Formation** : Bachelor Design d'intérieur (MJM Graphic Design & Autograf), après des études d'arts appliqués.
 
 ## 5. Missions et livrables (Consumedias / Talented Closers / Closers Group)
 
@@ -79,7 +86,7 @@
 - Emeline a construit la structure des cours et tourné une partie des 34 vidéos (hébergées sur Loom). Les questions et quiz ont été fournis par le client.
 - Taux de réussite global : environ 75 à 80 %. Le quiz servait de filtre d'accès au produit vendu par le client : sans validation, la personne était considérée comme non qualifiée.
 - Emeline ne gérait ni le seuil de validation ni les résultats.
-- Cohortes d'onboarding : jusqu'à 150 personnes par semaine, pour une communauté de 900 à 1 200 utilisateurs actifs.
+- Cohortes d'onboarding : jusqu'à 150 personnes par semaine, pour une communauté de 900 à 1 200 utilisateurs actifs par an (des entreprises, B2B).
 
 ### 5.5 Bascule de plateforme pour Closers Group
 
@@ -103,7 +110,8 @@
 
 ### 5.8 Équipe
 
-- Équipe de 4 à 6 personnes sur plusieurs années, selon les besoins : recrutement, formation, gestion des présences et congés.
+- Équipe de 4 à 10 personnes sur plusieurs années, selon les besoins : recrutement, formation, gestion des présences et congés.
+- Avant cela, à Malte (2021-2022) : équipe de 8 à 12 personnes en tant qu'office manager.
 
 ## 6. Situations et bugs résolus
 
@@ -126,7 +134,11 @@ Erreur « No CLI session ID available », non résolue par la réinstallation. C
 
 ## 7. Chiffres clés (toujours avec leur périmètre)
 
-- Communauté : 900 à 1 200 utilisateurs actifs.
+- Consumedias : chiffre d'affaires estimé à environ 4 M€ par an, soit environ 16 M€ sur 2022-2026 (estimation, CA de l'entreprise).
+- Communauté : 900 à 1 200 utilisateurs actifs par an, des entreprises (B2B).
+- Équipe : 4 à 10 personnes (2022-2026) ; 8 à 12 personnes à Malte (2021-2022).
+- Malte (2021-2022) : environ 225 K€ de ventes par mois, panier moyen 750 €, environ 15 ventes par jour.
+- Nestenn (2020) : 240 K€ d'honoraires d'agence la première année.
 - Abonnement mensuel : 200 €. Option premium : 950 € (formation), en plus de l'abonnement, + 10 % de commission.
 - Tickets support : 500 à 700 par mois.
 - Agent B : 40 à 60 % résolus sans escalade, escaladés traités en moins de 2 h, CSAT ~70 %.
@@ -146,7 +158,7 @@ Erreur « No CLI session ID available », non résolue par la réinstallation. C
 
 - Pas de portefeuille structuré de « grands comptes » au sens Customer Success enterprise : gestion d'un grand volume de comptes, et relation directe avec la direction.
 - Migration Pipedrive : contribution, pas pilotage.
-- Management : équipe de 4 à 6 personnes. Pas d'équipe formelle de 8 personnes documentée.
+- Management : équipe de 4 à 10 personnes chez Consumedias (2022-2026), et 8 à 12 personnes comme office manager à Malte (2021-2022).
 - Intégrations techniques (API REST, HRIS) : uniquement du no-code avec Make.
 - Aucune expérience directe en cybersécurité, logistique et intralogistique.
 - Agent B : outil du marché configuré, pas construit de zéro.

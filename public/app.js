@@ -4,6 +4,11 @@ import { renderMarkdown } from "/md.js";
 const I18N = {
   fr: {
     brandSub: "Agent de profil",
+    heroHi: "Bonjour, je suis",
+    heroSticker: "Ops IA-native ✳",
+    heroLede: "Posez vos questions sur mon parcours : opérations, customer success et les outils qui les font tenir.",
+    cv: "Mon CV (PDF)",
+    cvShort: "CV",
     about: "Pourquoi cet agent",
     loading: "Chargement…",
     contact: "Contacter Emeline",
@@ -53,6 +58,11 @@ const I18N = {
   },
   en: {
     brandSub: "Profile agent",
+    heroHi: "Hi, I'm",
+    heroSticker: "AI-native ops brain ✳",
+    heroLede: "Ask anything about my background: operations, customer success and the tools that hold them together.",
+    cv: "My CV (PDF)",
+    cvShort: "CV",
     about: "Why this agent",
     loading: "Loading…",
     contact: "Contact Emeline",

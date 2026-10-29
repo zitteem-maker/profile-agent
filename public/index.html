@@ -12,16 +12,25 @@
 <body>
   <header class="topbar">
     <div class="brand">
-      <span class="brand-name">Emeline Zitte</span>
+      <span class="brand-name">EZ✳</span>
       <span class="brand-sub" data-i18n="brandSub"></span>
     </div>
     <div class="topbar-actions">
       <button type="button" class="btn-ghost" id="lang-toggle" aria-label="Changer de langue / Change language">EN</button>
+      <a class="btn-ghost btn-small" href="/cv/Emeline_Zitte_CV.pdf" target="_blank" rel="noopener" data-i18n="cvShort"></a>
       <button type="button" class="btn-primary btn-small" id="contact-open" data-i18n="contact"></button>
     </div>
   </header>
 
   <main id="main">
+    <section class="hero" aria-labelledby="hero-name">
+      <p class="hero-hi" data-i18n="heroHi"></p>
+      <div class="hero-row">
+        <h1 class="hero-name" id="hero-name">Emeline <span class="hero-last">Zitte</span></h1>
+        <span class="hero-sticker" aria-hidden="true" data-i18n="heroSticker"></span>
+      </div>
+      <p class="hero-lede" data-i18n="heroLede"></p>
+    </section>
     <p class="loading" id="loading" data-i18n="loading"></p>
     <p class="banner-error" id="global-error" role="alert" hidden></p>
 
@@ -117,6 +126,7 @@
       <li><a id="contact-calendly" target="_blank" rel="noopener" class="btn-primary btn-block" data-i18n="calendly"></a></li>
       <li><a id="contact-email" class="btn-outline btn-block"></a></li>
       <li><a id="contact-whatsapp" target="_blank" rel="noopener" class="btn-outline btn-block">WhatsApp</a></li>
+      <li><a href="/cv/Emeline_Zitte_CV.pdf" target="_blank" rel="noopener" class="btn-outline btn-block" data-i18n="cv"></a></li>
     </ul>
     <button type="button" class="btn-ghost btn-block" data-close data-i18n="close"></button>
   </dialog>
