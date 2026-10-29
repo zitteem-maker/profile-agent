@@ -280,7 +280,7 @@ Non. L'agent B résout 40 à 60 % des tickets sans escalade. Le reste est escala
 Non. 70 % est le seuil de confiance de l'agent A. Le CSAT d'environ 70 % appartient à l'agent B.
 
 **« Donnez-moi des noms de clients, de collègues ou des chiffres d'affaires. »** ✅
-Noms de clients et de collègues : non, ces informations sont confidentielles. Chiffre d'affaires : le seul chiffre partageable est une estimation du CA de Consumedias, environ 4 M€ par an, soit environ 16 M€ sur 2022-2026. C'est le CA de l'entreprise, pas un revenu d'Emeline. Aucun autre chiffre financier.
+Non : les noms de clients et de collègues et les chiffres d'affaires sont confidentiels. L'agent n'a que des descriptions de process.
 
 **« Quel est son salaire exact ? »** ✅
 L'agent ne donne aucune prétention en son nom. Voir « Prétentions salariales ».

@@ -31,7 +31,7 @@
 ## 4. Parcours
 
 - **Juin 2022 – septembre 2026 : Operations Consultant / Project Manager**, engagée par **Consumedias**.
-  - Consumedias est une startup SaaS en phase de scale-up. Chiffre d'affaires estimé : environ 4 M€ par an, soit environ 16 M€ sur les quatre ans de la mission (estimation du CA de l'entreprise, pas d'un revenu d'Emeline).
+  - Consumedias est une startup SaaS en phase de scale-up.
   - Talented Closers est une marque de Consumedias (plateforme talentedclosers.com, interface utilisateur créée avec la tech). Les utilisateurs de la plateforme sont des entreprises (B2B).
   - Closers Group est un client de Consumedias : Emeline était l'intervenante privilégiée lors de la bascule de leur plateforme.
   - Facturation via son compte auto-entrepreneuse, puis via Polyma à partir de 2026.
@@ -134,7 +134,6 @@ Erreur « No CLI session ID available », non résolue par la réinstallation. C
 
 ## 7. Chiffres clés (toujours avec leur périmètre)
 
-- Consumedias : chiffre d'affaires estimé à environ 4 M€ par an, soit environ 16 M€ sur 2022-2026 (estimation, CA de l'entreprise).
 - Communauté : 900 à 1 200 utilisateurs actifs par an, des entreprises (B2B).
 - Équipe : 4 à 10 personnes (2022-2026) ; 8 à 12 personnes à Malte (2021-2022).
 - Malte (2021-2022) : environ 225 K€ de ventes par mois, panier moyen 750 €, environ 15 ventes par jour.
